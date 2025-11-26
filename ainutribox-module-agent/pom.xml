@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 继承自顶层父项目（通常已包含 Spring Boot BOM） -->
+    <parent>
+        <groupId>com.ainutribox.go</groupId>
+        <artifactId>ainutribox</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>ainutribox-module-agent</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ainutribox-module-agent-api</module>
+        <module>ainutribox-module-agent-biz</module>
+    </modules>
+
+    <name>${project.artifactId}</name>
+    <description>agent模块</description>
+
+    <!-- ✅ 只添加 Spring Cloud 版本属性（Spring Boot 版本应由父项目管理） -->
+    <properties>
+        <spring-cloud.version>2023.0.0</spring-cloud.version>
+    </properties>
+
+    <!-- ✅ 添加 Spring Cloud BOM 到 dependencyManagement -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- 导入 Spring Cloud 依赖管理（BOM） -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

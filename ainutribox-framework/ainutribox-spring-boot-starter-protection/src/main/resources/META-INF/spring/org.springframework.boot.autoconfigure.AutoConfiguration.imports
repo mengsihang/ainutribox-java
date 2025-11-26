@@ -1,0 +1,3 @@
+com.ainutribox.framework.idempotent.config.AinutriboxIdempotentConfiguration
+com.ainutribox.framework.lock4j.config.AinutriboxLock4jConfiguration
+com.ainutribox.framework.ratelimiter.config.AinutriboxRateLimiterConfiguration

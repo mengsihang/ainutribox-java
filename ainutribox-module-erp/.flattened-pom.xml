@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ainutribox.go</groupId>
+    <artifactId>ainutribox</artifactId>
+    <version>2.1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.ainutribox.go</groupId>
+  <artifactId>ainutribox-module-erp</artifactId>
+  <version>2.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>${project.artifactId}</name>
+  <description>erp 包下，企业资源管理（Enterprise Resource Planning）。
+        例如说：采购、销售、库存、财务、产品等等</description>
+  <modules>
+    <module>ainutribox-module-erp-api</module>
+    <module>ainutribox-module-erp-biz</module>
+  </modules>
+</project>

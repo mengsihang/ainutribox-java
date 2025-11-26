@@ -1,0 +1,3 @@
+com.ainutribox.framework.security.config.AinutriboxSecurityAutoConfiguration
+com.ainutribox.framework.security.config.AinutriboxWebSecurityConfigurerAdapter
+com.ainutribox.framework.operatelog.config.AinutriboxOperateLogConfiguration

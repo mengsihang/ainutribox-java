@@ -1,0 +1,3 @@
+com.ainutribox.framework.datasource.config.AinutriboxDataSourceAutoConfiguration
+com.ainutribox.framework.mybatis.config.AinutriboxMybatisAutoConfiguration
+com.ainutribox.framework.translate.config.AinutriboxTranslateAutoConfiguration

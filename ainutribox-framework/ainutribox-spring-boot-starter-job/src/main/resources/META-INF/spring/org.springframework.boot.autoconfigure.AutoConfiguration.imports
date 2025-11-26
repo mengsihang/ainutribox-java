@@ -1,0 +1,2 @@
+com.ainutribox.framework.quartz.config.AinutriboxQuartzAutoConfiguration
+com.ainutribox.framework.quartz.config.AinutriboxAsyncAutoConfiguration

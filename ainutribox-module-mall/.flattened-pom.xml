@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ainutribox.go</groupId>
+    <artifactId>ainutribox</artifactId>
+    <version>2.1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.ainutribox.go</groupId>
+  <artifactId>ainutribox-module-mall</artifactId>
+  <version>2.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>${project.artifactId}</name>
+  <description>商城大模块，由 product 商品、promotion 营销、trade 交易、statistics 统计等组成</description>
+  <modules>
+    <module>ainutribox-module-promotion-api</module>
+    <module>ainutribox-module-promotion-biz</module>
+    <module>ainutribox-module-product-api</module>
+    <module>ainutribox-module-product-biz</module>
+    <module>ainutribox-module-trade-api</module>
+    <module>ainutribox-module-trade-biz</module>
+    <module>ainutribox-module-statistics-api</module>
+    <module>ainutribox-module-statistics-biz</module>
+  </modules>
+</project>

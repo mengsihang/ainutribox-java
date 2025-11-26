@@ -1,0 +1,19 @@
+# Build
+target/
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.iws
+out/
+.classpath
+.project
+.settings/
+
+# Logs & OS
+logs/
+*.log
+.DS_Store
+Thumbs.db

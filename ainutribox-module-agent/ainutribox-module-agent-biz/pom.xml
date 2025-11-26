@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ainutribox.go</groupId>
+        <artifactId>ainutribox-module-agent</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>ainutribox-module-agent-biz</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        agent 模块
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ainutribox.go</groupId>
+            <artifactId>ainutribox-module-agent-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- 业务组件 -->
+        <dependency>
+            <groupId>com.ainutribox.go</groupId>
+            <artifactId>ainutribox-spring-boot-starter-biz-ip</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ainutribox.go</groupId>
+            <artifactId>ainutribox-spring-boot-starter-biz-tenant</artifactId>
+        </dependency>
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>com.ainutribox.go</groupId>
+            <artifactId>ainutribox-spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ainutribox.go</groupId>
+            <artifactId>ainutribox-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.ainutribox.go</groupId>
+            <artifactId>ainutribox-spring-boot-starter-mybatis</artifactId>
+        </dependency>
+
+        <!-- Test 测试相关 -->
+        <dependency>
+            <groupId>com.ainutribox.go</groupId>
+            <artifactId>ainutribox-spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <!-- Hutool 工具包（含 HTTP、JSON 等） -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+<!--            <version>5.8.22</version> &lt;!&ndash; 或使用最新版 &ndash;&gt;-->
+        </dependency>
+
+        <!-- Redis 支持（通常主项目已引入，但模块可能需要显式依赖） -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

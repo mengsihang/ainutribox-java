@@ -1,0 +1,23 @@
+package com.ainutribox.module.trade.service.price;
+
+import com.ainutribox.module.trade.service.price.bo.TradePriceCalculateReqBO;
+import com.ainutribox.module.trade.service.price.bo.TradePriceCalculateRespBO;
+
+import jakarta.validation.Valid;
+
+/**
+ * 价格计算 Service 接口
+ *
+ * @author 河南小泉山科技
+ */
+public interface TradePriceService {
+
+    /**
+     * 价格计算
+     *
+     * @param calculateReqDTO 计算信息
+     * @return 计算结果
+     */
+    TradePriceCalculateRespBO calculatePrice(@Valid TradePriceCalculateReqBO calculateReqDTO);
+
+}

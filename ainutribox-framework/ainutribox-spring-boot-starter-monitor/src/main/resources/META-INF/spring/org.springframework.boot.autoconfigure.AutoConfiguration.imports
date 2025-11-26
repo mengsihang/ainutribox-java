@@ -1,0 +1,2 @@
+com.ainutribox.framework.tracer.config.AinutriboxTracerAutoConfiguration
+com.ainutribox.framework.tracer.config.AinutriboxMetricsAutoConfiguration

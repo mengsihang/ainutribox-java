@@ -1,0 +1,6 @@
+com.ainutribox.framework.apilog.config.AinutriboxApiLogAutoConfiguration
+com.ainutribox.framework.jackson.config.AinutriboxJacksonAutoConfiguration
+com.ainutribox.framework.swagger.config.AinutriboxSwaggerAutoConfiguration
+com.ainutribox.framework.web.config.AinutriboxWebAutoConfiguration
+com.ainutribox.framework.xss.config.AinutriboxXssAutoConfiguration
+com.ainutribox.framework.banner.config.AinutriboxBannerAutoConfiguration

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ainutribox.go</groupId>
+    <artifactId>ainutribox-module-mall</artifactId>
+    <version>2.1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.ainutribox.go</groupId>
+  <artifactId>ainutribox-module-product-biz</artifactId>
+  <version>2.1.0-SNAPSHOT</version>
+  <name>${project.artifactId}</name>
+  <description>product 模块，主要实现商品相关功能
+        例如：品牌、商品分类、spu、sku等功能。</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.ainutribox.go</groupId>
+      <artifactId>ainutribox-module-product-api</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ainutribox.go</groupId>
+      <artifactId>ainutribox-module-member-api</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ainutribox.go</groupId>
+      <artifactId>ainutribox-spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.ainutribox.go</groupId>
+      <artifactId>ainutribox-spring-boot-starter-security</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.ainutribox.go</groupId>
+      <artifactId>ainutribox-spring-boot-starter-mybatis</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.ainutribox.go</groupId>
+      <artifactId>ainutribox-spring-boot-starter-test</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.ainutribox.go</groupId>
+      <artifactId>ainutribox-spring-boot-starter-excel</artifactId>
+    </dependency>
+  </dependencies>
+</project>

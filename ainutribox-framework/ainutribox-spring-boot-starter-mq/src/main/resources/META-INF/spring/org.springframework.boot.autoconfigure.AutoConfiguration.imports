@@ -1,0 +1,3 @@
+com.ainutribox.framework.mq.redis.config.AinutriboxRedisMQProducerAutoConfiguration
+com.ainutribox.framework.mq.redis.config.AinutriboxRedisMQConsumerAutoConfiguration
+com.ainutribox.framework.mq.rabbitmq.config.AinutriboxRabbitMQAutoConfiguration

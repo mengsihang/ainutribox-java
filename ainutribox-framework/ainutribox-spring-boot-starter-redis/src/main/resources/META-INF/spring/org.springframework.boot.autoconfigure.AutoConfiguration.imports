@@ -1,0 +1,2 @@
+com.ainutribox.framework.redis.config.AinutriboxRedisAutoConfiguration
+com.ainutribox.framework.redis.config.AinutriboxCacheAutoConfiguration

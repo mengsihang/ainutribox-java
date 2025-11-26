@@ -1,0 +1,1 @@
+package com.ainutribox.module.crm.framework.permission.core;
